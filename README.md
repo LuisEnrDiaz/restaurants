@@ -1,6 +1,7 @@
 <h1 align='center'>Restaurantes</h1>
 
 ![Estado del proyecto](https://img.shields.io/badge/ESTADO-%20COMPLETO-green)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9fdf004a-241c-4633-a87d-1b42ac8f4fc5/deploy-status)](https://luis-enrique-diaz.netlify.app/)
 
 <p align='center'>
         <img  width=800 align=center src='./public/assets/readme.png' alt='ejemplo de como se ve la pagina login' />
