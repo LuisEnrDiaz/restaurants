@@ -78,23 +78,23 @@ export function Restaurant() {
 
                         <Select variant="static" label="Hora de la reserva">
                             <label>Comida</label>
-                            <Option>13:00</Option>
-                            <Option>13:30</Option>
-                            <Option>14:00</Option>
-                            <Option>14:30</Option>
-                            <Option>15:00</Option>
-                            <Option>15:30</Option>
-                            <Option>16:00</Option>
-                            <Option>16:30</Option>
+                            <Option>13:00 h</Option>
+                            <Option>13:30 h</Option>
+                            <Option>14:00 h</Option>
+                            <Option>14:30 h</Option>
+                            <Option>15:00 h</Option>
+                            <Option>15:30 h</Option>
+                            <Option>16:00 h</Option>
+                            <Option>16:30 h</Option>
                             <label>Cena</label>
-                            <Option>20:00</Option>
-                            <Option>20:30</Option>
-                            <Option>21:00</Option>
-                            <Option>21:30</Option>
-                            <Option>22:00</Option>
-                            <Option>22:30</Option>
-                            <Option>23:00</Option>
-                            <Option>23:30</Option>
+                            <Option>20:00 h</Option>
+                            <Option>20:30 h</Option>
+                            <Option>21:00 h</Option>
+                            <Option>21:30 h</Option>
+                            <Option>22:00 h</Option>
+                            <Option>22:30 h</Option>
+                            <Option>23:00 h</Option>
+                            <Option>23:30 h</Option>
                         </Select>
 
                         <Input
@@ -110,6 +110,7 @@ export function Restaurant() {
                         variant="static"
                         label="¿Algo que debamos saber?"
                         placeholder="Ej: Alergias, intolerancias..."
+                        maxLength={200}
                     />
 
                     <div className="flex items-center justify-center">

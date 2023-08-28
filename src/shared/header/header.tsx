@@ -48,7 +48,7 @@ export function Header() {
 
     return (
         <header
-            className={`h-14 w-full flex items-center justify-between px-4 fixed top-0 z-10 transition-all ease-linear delay-75`}
+            className={`h-20 w-full flex items-center justify-between px-4 fixed top-0 z-10 transition-all ease-linear delay-75`}
         >
             <button
                 onClick={returnHome}
@@ -61,7 +61,7 @@ export function Header() {
                 <Button
                     onClick={returnToRestaurants}
                     variant="text"
-                    className="flex text-white text-base items-center gap-2 p-2"
+                    className="flex text-white bg-bgBluePrimary-600 text-base items-center gap-2 p-2"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
